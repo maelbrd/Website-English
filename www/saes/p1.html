@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projet 1</title>
+    <meta name="description" content="Projet 1">
+    <link rel="shortcut icon" href="../../data/logo_mb.ico">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <link href="https://kit-pro.fontawesome.com/releases/v6.0.0/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="../../index.html">
+            <i class="fa-solid fa-house"></i>
+          </a>
+        </li>
+        <li>
+          <a href="../../index.html#about">About</a>
+        </li>
+        <li>
+          <a href="../../index.html#skills">Skills</a>
+        </li>
+        <li>
+          <a href="../../index.html#experience">Experience</a>
+        </li>
+        <li>
+          <a href="projet.html">Project</a>
+        </li>
+          <!--<li>
+            <a href="/cv/a-propos.html">Zoom Sur</a>
+          </li>-->
+        <li>
+          <a href="../../stage/alternance.html">Work-study</a>
+        </li>
+        <li>
+          <a href="../../cv/cv.html">CV</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mobile-nav">
+      <div id="menu-buttons">
+        <div id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="cross" class="animated fadeIn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div id="menu" class="animated fadeIn">
+        <ul>
+          <li>
+            <a href="../../index.html">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
+            <a href="../../index.html#about">About</a>
+          </li>
+          <li>
+            <a href="../../index.html#skills">Skills</a>
+          </li>
+          <li>
+            <a href="../../index.html#experience">Experience</a>
+          </li>
+          <li>
+            <a href="../../cv/cv.html">CV</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section id="about">
+      <div class="poscenter outer-container">
+        <h2>Explore routing, learn about VLANs and much more!</h2>
+        <br>
+        <br>
+        <p> In this captivating project, I reviewed the basics of routing, VLAN initiation and much more, in order to consolidate the skills I'd acquired in my Bac Pro and deepen my understanding of computer networks. <br>
+        </p>
+    </section>
+    <div class="saeblock container" id="buttons-container">
+      <a href="#one" class="buttonitems item col-md-2 button" id="cont">
+        <i class="fad fa-toolbox cols"></i>
+        <span class="textico">Initiation Packet Tracer</span>
+        <br>
+        <p class="gris">PRESENTATION of the Packet Tracer tool</p>
+      </a>
+      <a href="#two" class="buttonitems item col-md-2 button" id="cont">
+        <i class="fad fa-router  cols"></i>
+        <span class="textico">Routing Project</span>
+        <br>
+        <p class="gris">Introduction to NETWORK routing</p>
+      </a>
+      <a href="#three" class="buttonitems item col-md-2 button" id="cont">
+        <i class="fad fa-router  cols"></i>
+        <span class="textico">Vlan switching</span>
+        <br>
+        <p class="gris">Introduction to VLANs and routing </p>
+      </a>
+      <a href="#four" class="buttonitems item col-md-2 button" id="cont">
+        <i class="fad fa-user-check  cols"></i>
+        <span class="textico">SKILLS ACQUIRED</span>
+        </span>
+        <br>
+        <p class="gris">Here are all the skills I've learned</p>
+      </a>
+    </div>
+    </section>
+    <section id="zoomon">
+      <div class="outer-container">
+        <div class="zoom first" style="display: flex; align-items: center;">
+          <div class="next-to">
+            <img src="data/pt.png" class="forensic-img">
+          </div>
+          <div class="right hidden" id="one">
+            <div class="content">
+              <h3>
+                <i class="fa-solid fa-user-tie"></i>Packet Tracer
+              </h3>
+              <div>Packet Tracer is Cisco's network hardware simulation software <br> It allows you to design virtual network architectures, so that : <br>
+                <br>
+                <li>Students learn to network without physical hardware</li>
+                <li>Professionals can test certain architectures before actually implementing them.</li>
+                <li>All this is done exclusively with Cisco virtual equipment.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="barre-couleur">
+          <hr>
+        </div>
+        <div class="zoom second" style="display: flex; align-items: center; ">
+          <div class="next-to" style="margin-right: -10%;">
+            <img src="data/routes.png" class="forensic-img" style="width:70%" id="rs" onclick="openModal(this)">
+            <p for="rs" class="label" style="text-align: center;display: grid; padding-top: 2%;">Click to see the project</p>
+          </div>
+          <div class="right hidden" id="two">
+            <div class="content">
+              <h3>
+                <i class="fa-solid fa-people-arrows"></i>Routing project
+              </h3>
+              <div>This part of the project taught us how to operate an infrastructure with several networks. <br>All the networks had to communicate with each other by configuring routers. <br>To make it all work, I had to : <br>
+                <br>
+                <li>Configure routes so that networks can communicate with each other</li>
+                <li>Configure router interfaces with the correct IP addresses</li>
+                <li>Configuring the switch management interface</li>
+                <br>
+                <p>After testing, all devices ping each other.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myModal" class="modal" onclick="closeModal()">
+          <img id="modalImage">
+        </div>
+        <script>
+          function openModal(image) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("modalImage");
+            modal.style.display = "block";
+            modalImg.src = image.src;
+          }
+
+          function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+          }
+        </script>
+        <div id="myModal" class="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img class="modal-content" id="modalImage">
+        </div>
+        <div class="barre-couleur">
+          <hr>
+        </div>
+        <div class="zoom third" style="display: flex; align-items: center;">
+          <div class="next-to">
+            <img src="data/vlan.png" style="width: 65%;" id="vlan" class="forensic-img" onclick="openModal(this)">
+            <p for="vlan" class="label" style="text-align: center;display: grid; padding-top: 2%;">Click to see the project</p>
+          </div>
+          <div class="right hidden" id="three">
+            <div class="content">
+              <h3>
+                <i class="fa-solid fa-list-check"></i>Vlan switching
+              </h3>
+              <h4>
+                <u>This part of the project taught us how to do Inter-Vlan routing.</u>
+              </h4>
+              <br>
+              <div>For this I had to : </li>
+                <li>Configure router subinterfaces with the correct IP addresses</li>
+                <li>Configure switch interfaces with the correct IP addresses</li>
+                <li>Set up VLANs on switches</li>
+                <li>Inter-Vlan routing configuration</li>
+                <li>Enabling the right Vlans in trunk mode</li>
+                <br>
+                <p>Once routing is complete, all vlans can communicate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="barre-couleur">
+          <hr>
+        </div>
+        <div class="zoom second" style="/* display: flex; */align-items: center;" id="compeetances">
+          <div class="comp2 comp" id="four">
+            <div class="content">
+              <h3>
+                <i class="fa-solid fa-people-arrows"></i>Skills acquired
+              </h3>
+              <div>I was able to develop several skills such as : <br>
+                <br>
+                <div style="text-align: justify;">
+                  <li>
+                    <b>Switch and router configuration:</b> Ability to configure switches and routers using specific commands
+                  </li>
+                  <li>
+                    <b>Spanning-Tree principle:</b> Understanding the concepts of Spanning-Tree Protocol (STP) and its variants to avoid loops in networks.
+                  </li>
+                  <li>
+                    <b>Inter-Vlan Routing:</b> Ability to configure routing between different virtual networks (VLANs) to enable communication between them.
+                  </li>
+                  <li>
+                    <b>Trunk configuration:</b> Ability to configure trunks, which allow multiple VLANs to be transported over a single physical connection.
+                  </li>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <a href="https://www.linkedin.com/in/mael-briday/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="mailto:mael.briday@gmail.com?subject=RE:MonPortfolio" target="_blank">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+    </footer>
+    <!--/FOOTER DE LA PAGE-->
+    <!--/IMPORT JS-->
+    <script src="../../css/js/script1.js"></script>
+    <script src="../../css/js/script_sae101.js"></script>
+    <script src="../../css/js/script_apropos.js"></script>
+    <!--/IMPORT JS-->
+  </body>
+</html>
